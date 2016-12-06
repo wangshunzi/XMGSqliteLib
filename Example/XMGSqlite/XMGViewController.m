@@ -7,6 +7,7 @@
 //
 
 #import "XMGViewController.h"
+#import "XMGSqliteModelTool.h"
 
 @interface XMGViewController ()
 
