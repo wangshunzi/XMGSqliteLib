@@ -1,0 +1,6 @@
+framework module XMGSqlite {
+  umbrella header "XMGSqlite-umbrella.h"
+
+  export *
+  module * { export * }
+}

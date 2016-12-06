@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025D0D08EACCDF7C097D78EDD99447D9 /* XMGSqlite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E84B667284BEDB478610E8F762C261FF /* XMGSqlite-dummy.m */; };
+		075D889C1DA8FF63778F6F399D9AEBA1 /* XMGSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801F9A1582B2D68A700861441DEB2FD /* XMGSqliteModelTool.m */; };
+		4373A056AB92F0943821201D36BDE410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4932CB1C8A3E46C34E52A03D0B7B85B7 /* Pods-XMGSqlite_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87085717DFDAB98C4C43ACF5466F1BA8 /* Pods-XMGSqlite_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B972A3F0C8C67554F14DAB78269F36C /* XMGSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC852F29FEA693EE594B9BE7A1C57FE /* XMGSqliteTool.m */; };
+		5119FDA33C5FE47410E799F85F2904F6 /* Pods-XMGSqlite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD94F4DAC37648BD9A2E3F9EF6B74F /* Pods-XMGSqlite_Tests-dummy.m */; };
+		6421DB2D94DF536A226AEE82AF6C5E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7413F5723EB70B9B9FBD174A2E343989 /* XMGModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B58221DDBC8722B63A89FCDD364870DC /* XMGModelTool.m */; };
+		7DAD4714A464EDEC54B31E4A03282994 /* XMGSqlite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD37320BBCD2A84C13B08B5ACA05ED94 /* XMGSqlite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		837171187AB4ADE2CACEB297B7C8A5CD /* XMGTableTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BF55857438A9CC9DA48CF04FD24CD9 /* XMGTableTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B5B809ED4D75435776C36D0217CA602 /* Pods-XMGSqlite_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0037BD12C35360A797228FB02FA4BCF5 /* Pods-XMGSqlite_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F22C92700F904D4248D3274842C45AD /* XMGModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D084E3A81E2582743A86C04CEA0768D /* XMGModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A301F0861393B35E396543EBBFE0301C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A7A465A3F11A4C91E9588C347CEE2386 /* XMGSqliteTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F85B6784FEB5E5A11F956590B9C40C4 /* XMGSqliteTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2F4A01845C6A9B3BD284054047504DB /* XMGSqliteModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B335A0A5A8421A54B517151851FE9B3 /* XMGSqliteModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED0D2A413EED993B4DBE14ABBCAC385A /* Pods-XMGSqlite_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 766A67E822EE8189E772C12DFF612E0F /* Pods-XMGSqlite_Example-dummy.m */; };
+		FACFCFE90D14318724C0B4FE5C5F8B39 /* XMGTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8988E1A6AE4789550FC8EF768FF72663 /* XMGTableTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFA168F95DDCF3929E53548B2242F0E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F518986C92A44E5C30D8AC562176782E;
+			remoteInfo = XMGSqlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0020310CB144DDDCAED88721831D9B7C /* Pods-XMGSqlite_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMGSqlite_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0037BD12C35360A797228FB02FA4BCF5 /* Pods-XMGSqlite_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMGSqlite_Example-umbrella.h"; sourceTree = "<group>"; };
+		036FFD4BCC310789F624B0C5823FEEE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AF744A06F747CB5A0FEB2EF515A39C /* XMGSqlite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMGSqlite.xcconfig; sourceTree = "<group>"; };
+		0849CC5B35EE38B4A010985843A147F1 /* Pods-XMGSqlite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMGSqlite_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0B335A0A5A8421A54B517151851FE9B3 /* XMGSqliteModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGSqliteModelTool.h; sourceTree = "<group>"; };
+		161851F50CE1652FA9774DC1077690B7 /* Pods-XMGSqlite_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMGSqlite_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1E4225FEE2DA94E46D5421D508C92967 /* Pods-XMGSqlite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMGSqlite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E80A16AA7F92780E467D8A4B2084BD7 /* Pods-XMGSqlite_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMGSqlite_Example-resources.sh"; sourceTree = "<group>"; };
+		2801F9A1582B2D68A700861441DEB2FD /* XMGSqliteModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGSqliteModelTool.m; sourceTree = "<group>"; };
+		28BF55857438A9CC9DA48CF04FD24CD9 /* XMGTableTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGTableTool.h; sourceTree = "<group>"; };
+		2BAD94F4DAC37648BD9A2E3F9EF6B74F /* Pods-XMGSqlite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMGSqlite_Tests-dummy.m"; sourceTree = "<group>"; };
+		2D084E3A81E2582743A86C04CEA0768D /* XMGModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGModelTool.h; sourceTree = "<group>"; };
+		310F6D2BB85E688183222BCA2B863945 /* Pods-XMGSqlite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XMGSqlite_Tests.modulemap"; sourceTree = "<group>"; };
+		4B2A564343424FF914A02AE92207AE1F /* Pods-XMGSqlite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XMGSqlite_Example.modulemap"; sourceTree = "<group>"; };
+		5451F088BC350401E9B71B8C430786B0 /* XMGSqlite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMGSqlite.framework; path = XMGSqlite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6A01F580F177F7DBA2887842C7C045 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F85B6784FEB5E5A11F956590B9C40C4 /* XMGSqliteTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGSqliteTool.h; sourceTree = "<group>"; };
+		65E4CEE5AA16B046FEBA866B43E5559E /* XMGSqlite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMGSqlite-prefix.pch"; sourceTree = "<group>"; };
+		766A67E822EE8189E772C12DFF612E0F /* Pods-XMGSqlite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMGSqlite_Example-dummy.m"; sourceTree = "<group>"; };
+		87085717DFDAB98C4C43ACF5466F1BA8 /* Pods-XMGSqlite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMGSqlite_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8988E1A6AE4789550FC8EF768FF72663 /* XMGTableTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGTableTool.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFC0B5F452CCD887F6BDA2884485A662 /* Pods-XMGSqlite_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMGSqlite_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B58221DDBC8722B63A89FCDD364870DC /* XMGModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGModelTool.m; sourceTree = "<group>"; };
+		B5848CF1E5F11A93F34C196921F0B5EB /* Pods-XMGSqlite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMGSqlite_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B6B745BC800CAC2F8EFAEF4601340536 /* Pods_XMGSqlite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMGSqlite_Tests.framework; path = "Pods-XMGSqlite_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD37320BBCD2A84C13B08B5ACA05ED94 /* XMGSqlite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMGSqlite-umbrella.h"; sourceTree = "<group>"; };
+		BDCEC92818987A02981DF9AA2A311A10 /* Pods-XMGSqlite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMGSqlite_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BFF6F7A121892F512AFF805DBF6E9489 /* XMGSqlite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XMGSqlite.modulemap; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBC852F29FEA693EE594B9BE7A1C57FE /* XMGSqliteTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGSqliteTool.m; sourceTree = "<group>"; };
+		D176B2FDC98CDA6545E0AA7295361B0C /* Pods-XMGSqlite_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMGSqlite_Tests-resources.sh"; sourceTree = "<group>"; };
+		D3763B42B9C6A6CE0177C86E6941271F /* Pods-XMGSqlite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMGSqlite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7854CF37D76368AB931CBEB2567CAED /* Pods-XMGSqlite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMGSqlite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E84B667284BEDB478610E8F762C261FF /* XMGSqlite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMGSqlite-dummy.m"; sourceTree = "<group>"; };
+		F6388116E717B7CECC3BE7145D6E3F9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92AA3F3572D7572BF25CF2B4E050925 /* Pods_XMGSqlite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMGSqlite_Example.framework; path = "Pods-XMGSqlite_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE25AB8B195F979D6619E1401C47C280 /* Pods-XMGSqlite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMGSqlite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AE05C6D20836FA34CD6006CB64B950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6421DB2D94DF536A226AEE82AF6C5E50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AF884DC6B8E874C6A04675B54BAE33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A301F0861393B35E396543EBBFE0301C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED51D9062547C63F0DD750667B9D00AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4373A056AB92F0943821201D36BDE410 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5FA8A0CDECEB344FC4A848EE503D66 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D07DF6F8B5A00333DE1705281A255F1E /* XMGSqlite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		109E48AFCE35B1FA5656AB716A8CDE0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6388116E717B7CECC3BE7145D6E3F9F /* Info.plist */,
+				BFF6F7A121892F512AFF805DBF6E9489 /* XMGSqlite.modulemap */,
+				05AF744A06F747CB5A0FEB2EF515A39C /* XMGSqlite.xcconfig */,
+				E84B667284BEDB478610E8F762C261FF /* XMGSqlite-dummy.m */,
+				65E4CEE5AA16B046FEBA866B43E5559E /* XMGSqlite-prefix.pch */,
+				BD37320BBCD2A84C13B08B5ACA05ED94 /* XMGSqlite-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XMGSqlite";
+			sourceTree = "<group>";
+		};
+		2CAF62B7B4C6028FB44B94FD268AA40F /* XMGSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				88D5EA4B16D75E1079B335AF914DBB23 /* Classes */,
+			);
+			name = XMGSqlite;
+			path = XMGSqlite;
+			sourceTree = "<group>";
+		};
+		591F48848E555C99AE336996483DD2B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE79C25E4E9B66D94C22F8C05FF211B /* Pods-XMGSqlite_Example */,
+				D2DFF1CA044C87626D442E4818DD1921 /* Pods-XMGSqlite_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0A5FA8A0CDECEB344FC4A848EE503D66 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BA854CCDD304D5550EE1634C68FED2CA /* Products */,
+				591F48848E555C99AE336996483DD2B5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88D5EA4B16D75E1079B335AF914DBB23 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D084E3A81E2582743A86C04CEA0768D /* XMGModelTool.h */,
+				B58221DDBC8722B63A89FCDD364870DC /* XMGModelTool.m */,
+				0B335A0A5A8421A54B517151851FE9B3 /* XMGSqliteModelTool.h */,
+				2801F9A1582B2D68A700861441DEB2FD /* XMGSqliteModelTool.m */,
+				5F85B6784FEB5E5A11F956590B9C40C4 /* XMGSqliteTool.h */,
+				CBC852F29FEA693EE594B9BE7A1C57FE /* XMGSqliteTool.m */,
+				28BF55857438A9CC9DA48CF04FD24CD9 /* XMGTableTool.h */,
+				8988E1A6AE4789550FC8EF768FF72663 /* XMGTableTool.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BA854CCDD304D5550EE1634C68FED2CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92AA3F3572D7572BF25CF2B4E050925 /* Pods_XMGSqlite_Example.framework */,
+				B6B745BC800CAC2F8EFAEF4601340536 /* Pods_XMGSqlite_Tests.framework */,
+				5451F088BC350401E9B71B8C430786B0 /* XMGSqlite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D07DF6F8B5A00333DE1705281A255F1E /* XMGSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				109E48AFCE35B1FA5656AB716A8CDE0F /* Support Files */,
+				2CAF62B7B4C6028FB44B94FD268AA40F /* XMGSqlite */,
+			);
+			name = XMGSqlite;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D2DFF1CA044C87626D442E4818DD1921 /* Pods-XMGSqlite_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				036FFD4BCC310789F624B0C5823FEEE1 /* Info.plist */,
+				310F6D2BB85E688183222BCA2B863945 /* Pods-XMGSqlite_Tests.modulemap */,
+				FE25AB8B195F979D6619E1401C47C280 /* Pods-XMGSqlite_Tests-acknowledgements.markdown */,
+				E7854CF37D76368AB931CBEB2567CAED /* Pods-XMGSqlite_Tests-acknowledgements.plist */,
+				2BAD94F4DAC37648BD9A2E3F9EF6B74F /* Pods-XMGSqlite_Tests-dummy.m */,
+				161851F50CE1652FA9774DC1077690B7 /* Pods-XMGSqlite_Tests-frameworks.sh */,
+				D176B2FDC98CDA6545E0AA7295361B0C /* Pods-XMGSqlite_Tests-resources.sh */,
+				87085717DFDAB98C4C43ACF5466F1BA8 /* Pods-XMGSqlite_Tests-umbrella.h */,
+				D3763B42B9C6A6CE0177C86E6941271F /* Pods-XMGSqlite_Tests.debug.xcconfig */,
+				B5848CF1E5F11A93F34C196921F0B5EB /* Pods-XMGSqlite_Tests.release.xcconfig */,
+			);
+			name = "Pods-XMGSqlite_Tests";
+			path = "Target Support Files/Pods-XMGSqlite_Tests";
+			sourceTree = "<group>";
+		};
+		EAE79C25E4E9B66D94C22F8C05FF211B /* Pods-XMGSqlite_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5D6A01F580F177F7DBA2887842C7C045 /* Info.plist */,
+				4B2A564343424FF914A02AE92207AE1F /* Pods-XMGSqlite_Example.modulemap */,
+				1E4225FEE2DA94E46D5421D508C92967 /* Pods-XMGSqlite_Example-acknowledgements.markdown */,
+				AFC0B5F452CCD887F6BDA2884485A662 /* Pods-XMGSqlite_Example-acknowledgements.plist */,
+				766A67E822EE8189E772C12DFF612E0F /* Pods-XMGSqlite_Example-dummy.m */,
+				0020310CB144DDDCAED88721831D9B7C /* Pods-XMGSqlite_Example-frameworks.sh */,
+				1E80A16AA7F92780E467D8A4B2084BD7 /* Pods-XMGSqlite_Example-resources.sh */,
+				0037BD12C35360A797228FB02FA4BCF5 /* Pods-XMGSqlite_Example-umbrella.h */,
+				BDCEC92818987A02981DF9AA2A311A10 /* Pods-XMGSqlite_Example.debug.xcconfig */,
+				0849CC5B35EE38B4A010985843A147F1 /* Pods-XMGSqlite_Example.release.xcconfig */,
+			);
+			name = "Pods-XMGSqlite_Example";
+			path = "Target Support Files/Pods-XMGSqlite_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6332EE155D5B20EF4C0E635679447756 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4932CB1C8A3E46C34E52A03D0B7B85B7 /* Pods-XMGSqlite_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E25174409AEED74F881643B3889ED0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F22C92700F904D4248D3274842C45AD /* XMGModelTool.h in Headers */,
+				7DAD4714A464EDEC54B31E4A03282994 /* XMGSqlite-umbrella.h in Headers */,
+				D2F4A01845C6A9B3BD284054047504DB /* XMGSqliteModelTool.h in Headers */,
+				A7A465A3F11A4C91E9588C347CEE2386 /* XMGSqliteTool.h in Headers */,
+				837171187AB4ADE2CACEB297B7C8A5CD /* XMGTableTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C67ED6010964E33DA90BFF83FAC8E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5B809ED4D75435776C36D0217CA602 /* Pods-XMGSqlite_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF0FD5BC2DA5D0042712B4F3833DB112 /* Pods-XMGSqlite_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3B473F96967436AFA9D3E0B9BA2E6B /* Build configuration list for PBXNativeTarget "Pods-XMGSqlite_Example" */;
+			buildPhases = (
+				AA1EFA03795DF12A00388C7375DC2E5A /* Sources */,
+				29AE05C6D20836FA34CD6006CB64B950 /* Frameworks */,
+				E8C67ED6010964E33DA90BFF83FAC8E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D30470EBA77A916825A4B4BD3859E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-XMGSqlite_Example";
+			productName = "Pods-XMGSqlite_Example";
+			productReference = F92AA3F3572D7572BF25CF2B4E050925 /* Pods_XMGSqlite_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2BCF2296F5404B53073AAF8A6DFBBEC /* Pods-XMGSqlite_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CF2EC15A1F2BBFDF66F08253B6FD2F /* Build configuration list for PBXNativeTarget "Pods-XMGSqlite_Tests" */;
+			buildPhases = (
+				0D0A5CEC8C4EB40AA9165BBF4B25B211 /* Sources */,
+				ED51D9062547C63F0DD750667B9D00AE /* Frameworks */,
+				6332EE155D5B20EF4C0E635679447756 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XMGSqlite_Tests";
+			productName = "Pods-XMGSqlite_Tests";
+			productReference = B6B745BC800CAC2F8EFAEF4601340536 /* Pods_XMGSqlite_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F518986C92A44E5C30D8AC562176782E /* XMGSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093F17101F7BDF15936A7673BEC50F97 /* Build configuration list for PBXNativeTarget "XMGSqlite" */;
+			buildPhases = (
+				EECF5AF9601F3F0ED11EDA30E220DDA4 /* Sources */,
+				C9AF884DC6B8E874C6A04675B54BAE33 /* Frameworks */,
+				7E25174409AEED74F881643B3889ED0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMGSqlite;
+			productName = XMGSqlite;
+			productReference = 5451F088BC350401E9B71B8C430786B0 /* XMGSqlite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BA854CCDD304D5550EE1634C68FED2CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF0FD5BC2DA5D0042712B4F3833DB112 /* Pods-XMGSqlite_Example */,
+				F2BCF2296F5404B53073AAF8A6DFBBEC /* Pods-XMGSqlite_Tests */,
+				F518986C92A44E5C30D8AC562176782E /* XMGSqlite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D0A5CEC8C4EB40AA9165BBF4B25B211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5119FDA33C5FE47410E799F85F2904F6 /* Pods-XMGSqlite_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1EFA03795DF12A00388C7375DC2E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D2A413EED993B4DBE14ABBCAC385A /* Pods-XMGSqlite_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECF5AF9601F3F0ED11EDA30E220DDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7413F5723EB70B9B9FBD174A2E343989 /* XMGModelTool.m in Sources */,
+				025D0D08EACCDF7C097D78EDD99447D9 /* XMGSqlite-dummy.m in Sources */,
+				075D889C1DA8FF63778F6F399D9AEBA1 /* XMGSqliteModelTool.m in Sources */,
+				4B972A3F0C8C67554F14DAB78269F36C /* XMGSqliteTool.m in Sources */,
+				FACFCFE90D14318724C0B4FE5C5F8B39 /* XMGTableTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5D30470EBA77A916825A4B4BD3859E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMGSqlite;
+			target = F518986C92A44E5C30D8AC562176782E /* XMGSqlite */;
+			targetProxy = DFA168F95DDCF3929E53548B2242F0E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13E4A15EAE9FAC71A2A96C053B11A04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDCEC92818987A02981DF9AA2A311A10 /* Pods-XMGSqlite_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XMGSqlite_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMGSqlite_Example/Pods-XMGSqlite_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMGSqlite_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3087E45DED4E895CE98D6C0043D0E2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0849CC5B35EE38B4A010985843A147F1 /* Pods-XMGSqlite_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XMGSqlite_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMGSqlite_Example/Pods-XMGSqlite_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMGSqlite_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F866B3935332657D408C4C3A0632233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05AF744A06F747CB5A0FEB2EF515A39C /* XMGSqlite.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XMGSqlite/XMGSqlite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMGSqlite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMGSqlite/XMGSqlite.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XMGSqlite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44DA18141785AFF85943F4A02B18DCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05AF744A06F747CB5A0FEB2EF515A39C /* XMGSqlite.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XMGSqlite/XMGSqlite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMGSqlite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMGSqlite/XMGSqlite.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XMGSqlite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC2C838223EF815DD281B7767A8CC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3763B42B9C6A6CE0177C86E6941271F /* Pods-XMGSqlite_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XMGSqlite_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMGSqlite_Tests/Pods-XMGSqlite_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMGSqlite_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6490E0FE2D3735AA9722815B314FFAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5848CF1E5F11A93F34C196921F0B5EB /* Pods-XMGSqlite_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-XMGSqlite_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMGSqlite_Tests/Pods-XMGSqlite_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XMGSqlite_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093F17101F7BDF15936A7673BEC50F97 /* Build configuration list for PBXNativeTarget "XMGSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DA18141785AFF85943F4A02B18DCF4 /* Debug */,
+				3F866B3935332657D408C4C3A0632233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3B473F96967436AFA9D3E0B9BA2E6B /* Build configuration list for PBXNativeTarget "Pods-XMGSqlite_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E4A15EAE9FAC71A2A96C053B11A04F /* Debug */,
+				3087E45DED4E895CE98D6C0043D0E2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CF2EC15A1F2BBFDF66F08253B6FD2F /* Build configuration list for PBXNativeTarget "Pods-XMGSqlite_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC2C838223EF815DD281B7767A8CC0E /* Debug */,
+				6490E0FE2D3735AA9722815B314FFAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
