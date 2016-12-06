@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XMGSqlite_Example' do
+  pod 'XMGSqlite', :path => '../'
+
+  target 'XMGSqlite_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
